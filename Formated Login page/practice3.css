@@ -1,0 +1,19 @@
+body{
+    font-family: 'Courier New';
+    background-color: rgba(236, 247, 88, 0.989);
+}
+
+h1{
+    color: #1b74e4;
+
+}
+
+.userbtn{
+    background-color: aqua;
+    color: blue;
+}
+
+button{
+    background-color: black;
+    color: white;
+}
