@@ -1,0 +1,70 @@
+*{
+    background-color: rgb(234, 245, 87);
+}
+
+h1,h3{
+    color: blueviolet;
+}
+
+#user{
+    color: chartreuse;
+}
+
+#pass{
+    color: rgb(255, 251, 0);
+}
+
+.abc{
+    background-color: rgb(71, 242, 71);
+}
+
+div p{
+    color: deeppink;
+}
+
+p a{
+    color: red;
+}
+
+nav ul li a{
+    color: rgb(245, 4, 229);
+}
+
+/* #signup{
+    color: blueviolet;
+    background-color: aquamarine;
+}
+#login{
+    color: blueviolet;
+    background-color: aquamarine;
+} */
+
+p+h3{
+    text-decoration: underline;
+}
+
+.upvote+button{
+    background-color: blue;
+}
+
+input[type="password"]{
+    background-color: rgb(113, 236, 242);
+}
+
+input[type="text"]{
+    background-color:rgb(113, 236, 242);
+}
+button:hover{
+    color: rgb(231, 248, 4);
+    background-color: rgb(127, 7, 239);
+}
+
+p:hover{
+    color: rgb(8, 4, 241);
+    font-weight: bold;
+}
+h1::first-letter{
+    color: rgb(211, 0, 0);
+    font-weight: bolder;
+    
+}
