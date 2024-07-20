@@ -1,0 +1,44 @@
+#outer{
+    height: 200px;
+    width: 70px;
+    border-width:2px ;
+    border-style: solid;
+    border-color: black;
+    border-radius: 10px;
+    background-color: darkturquoise;
+    margin-left: 45%;
+    margin-top: 15%;
+}
+
+#red{
+    height: 50px;
+    width: 50px;
+    border: 2px;
+    border-style: solid;
+    border-color: black;
+    border-radius: 50%;
+    background-color: red;
+    margin: 10px;
+}
+
+#yellow{
+    height: 50px;
+    width: 50px;
+    border: 2px;
+    border-style: solid;
+    border-color: black;
+    border-radius: 50%;
+    background-color:yellow;
+    margin: 10px;
+}
+
+#green{
+    height: 50px;
+    width: 50px;
+    border: 2px;
+    border-style: solid;
+    border-color: black;
+    border-radius: 50%;
+    background-color: green;
+    margin: 10px;
+}
