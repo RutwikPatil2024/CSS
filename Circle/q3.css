@@ -1,0 +1,19 @@
+/* #li1{
+    background-color: aqua;
+
+}
+#li2{
+    background-color: blueviolet;
+} */
+
+div>ul{
+    display: inline-block;
+}
+
+#li1{
+    background-color: aqua;
+
+}
+#li2{
+    background-color: blueviolet;
+}
