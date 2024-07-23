@@ -1,0 +1,32 @@
+#one{
+    width: 800px;
+    height:400px;
+    background-color: aquamarine;
+    margin: 10px auto;
+    background-image: url("flower.jpg");
+    background-size: contain;
+    color: chartreuse;
+    border: 3px solid black;
+}
+
+#two{
+    width: 800px;
+    height:400px;
+    background-color: aquamarine;
+    margin: 10px auto;
+    background-image: url("flower.jpg");
+    background-size: cover;
+    color: chartreuse;
+    border: 3px solid black;
+}
+
+#three{
+    width: 800px;
+    height:400px;
+    background-color: aquamarine;
+    margin: 10px auto;
+    background-image: url("flower.jpg");
+    background-size: auto;
+    color: chartreuse;
+    border: 3px solid black;
+}
