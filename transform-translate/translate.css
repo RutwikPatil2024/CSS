@@ -1,0 +1,66 @@
+
+#one{
+    width: 200px;
+    height: 200px;
+    text-align: center;
+    background-color:rgb(38, 5, 248);
+    color: rgb(5, 246, 246);
+    border: 2px solid black;
+    margin: 50px;
+    transition-duration: 1s;
+}
+
+#two{
+    width: 200px;
+    height: 200px;
+    text-align: center;
+    background-color:rgb(6, 244, 6);
+    color: rgb(7, 7, 7);
+    border: 2px solid black;
+    margin: 50px;
+    transition-duration: 1s;
+}
+#three{
+    width: 200px;
+    height: 200px;
+    text-align: center;
+    background-color:rgb(240, 8, 144);
+    color: rgb(11, 11, 11);
+    border: 2px solid black;
+    margin: 50px;
+    transition-duration: 1s;
+}
+
+#four{
+    width: 200px;
+    height: 200px;
+    text-align: center;
+    background-color:rgb(240, 240, 8);
+    color: rgb(11, 11, 11);
+    border: 2px solid black;
+    margin: 50px;
+    transition-duration: 1s;
+    
+}
+#one:hover{
+    transform: translate(50px,50px);
+    border-radius: 50%;
+}
+
+#two:hover{
+    transform: translate(50px,50px);
+    border-radius: 50%;
+}
+#three:hover{
+    transform: translate(50px,50px);
+    border-radius: 50%;
+}
+#four:hover{
+    transform: translate(50px,50px);
+    border-radius: 50%;
+}
+
+#one,#two,#three,#four{
+    display: inline-block;
+    
+}
