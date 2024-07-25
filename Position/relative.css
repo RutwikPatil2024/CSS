@@ -1,0 +1,17 @@
+div{
+    height: 200px;
+    width: 200px;
+    background-color: rgb(10, 220, 248);
+    text-align: center;
+    border: 3px solid black;
+    margin: 20px;
+    display: inline-block;
+}
+
+#relative{
+    background-color: yellow;
+    position: relative;
+    top: 100px;
+    left: 100px;
+    
+}

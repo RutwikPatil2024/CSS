@@ -1,0 +1,17 @@
+div{
+    height: 200px;
+    width: 200px;
+    background-color: rgb(10, 220, 248);
+    text-align: center;
+    border: 3px solid black;
+    margin: 20px;
+    display: inline-block;
+}
+
+#absolute{
+    background-color: yellow;
+    position: absolute;
+    left: 400px;
+    top: 250px;
+    
+}
