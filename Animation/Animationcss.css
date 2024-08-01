@@ -1,0 +1,63 @@
+.box1,.box2,.box3{
+    display: inline-block;
+    margin-right: 30px;
+    /* position: relative; */
+    /* right: auto; */
+    padding-left: 50px;
+}
+.box1{
+    height: 300px;
+    width: 300px;
+    background-color: rgb(248, 244, 8);
+    animation-name: BoxAnimation;
+    
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-direction:alternate-reverse ;
+}
+.box2{
+    height: 300px;
+    width: 300px;
+    background-color: rgb(248, 244, 8);
+    animation-name: BoxAnimation;
+    
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-direction:alternate-reverse ;
+}
+.box3{
+    height: 300px;
+    width: 300px;
+    background-color: rgb(248, 244, 8);
+    animation-name: BoxAnimation;
+    
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-direction:alternate-reverse ;
+}
+@keyframes FontAnimation {
+    from{
+        font-size: 20px;
+        font-weight: 100;
+    }
+    to{
+        font-size: 40px;
+        font-weight: 800;
+        font-style: italic;
+    }
+}
+
+@keyframes BoxAnimation {
+    from{
+        width: 100px;
+        height: 100px;
+        
+    }
+    to{
+        width: 400px;
+        width: 400px;
+        border-radius: 50%;
+        background-color: rgb(243, 8, 188);
+        box-shadow: 5px 5px 20px rgb(8, 16, 243);
+    }
+}
