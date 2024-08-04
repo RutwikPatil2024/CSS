@@ -1,0 +1,34 @@
+.loader{
+    width:150px;
+    height:150px;
+    border: 16px solid #f4fc09;
+    border-bottom:16px solid rgb(6, 6, 6);
+    border-top:16px solid rgb(10, 10, 10);
+    border-radius:50%;
+    animation-name: rotation;
+    animation-duration: 2s;
+    animation-direction: linear;
+    animation-iteration-count:infinite ;
+    box-shadow: 5px 5px 10px rgb(27, 7, 245);
+    margin: auto;
+}
+
+@keyframes rotation {
+    0%{
+        transform: rotate(0deg);
+    }
+    100%{
+        transform: rotate(360deg);
+    }
+    
+}
+
+h3{
+    text-align: center;
+    padding-top: 50px;
+}
+
+.loader:hover{
+    border-bottom:16px solid rgb(5, 250, 34);
+    border-top:16px solid rgb(10, 10, 10);
+}
